@@ -1,0 +1,33 @@
+{
+  "name": "helpdesk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "npm install",
+    "start": "forever server.js",
+    "watch": "forever -w server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikulin68/HelpDesk.git"
+  },
+  "author": "nikuli68",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nikulin68/HelpDesk/issues"
+  },
+  "homepage": "https://github.com/nikulin68/HelpDesk#readme",
+  "dependencies": {
+    "@koa/cors": "^4.0.0",
+    "forever": "^4.0.3",
+    "koa": "^2.14.2",
+    "koa-body": "^6.0.1",
+    "koa-static": "^5.0.0",
+    "uuid": "^9.0.0"
+  },
+   "engines": {
+    "node": "12.x"
+  }
+
+}
