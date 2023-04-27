@@ -1,6 +1,6 @@
 const TicketController = require("./TicketController");
 const Koa = require("koa");
-const koaBody = require("koa-body");
+const {koaBody} = require("koa-body");
 const cors = require("@koa/cors");
 const app = new Koa();
 
